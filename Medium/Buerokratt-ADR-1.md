@@ -27,7 +27,7 @@ For instance, we have 0 relational database queries written in Java or similar -
 
 We also have 0 lines of Bürokratt-specific code in our Java (or any other) applications. Every single condition(al switch), business logic, replacable endpoint, etc is defined in YAML files. We create all of our actual, natural language-based e-services, the same way a CI/CD engineer would use Docker or Kubernetes. This is provided by [**Ruuter**](https://github.com/buerokratt/Ruuter), our most central Bükstack component.
 
-We have also adopted [**Handlebars**](https://handlebarsjs.com/) as a third-party component to make sure that changing data protocols - for instance, when replacing one component/endpoint to another - could be done easily on a level of, once again, text file(s). Not Java, not Go, not some other actual programming language requiring (too) specific knowledge.
+We have also adopted [**Handlebars**](https://handlebarsjs.com/) as a third-party component to make sure that changing data protocols - for instance, when replacing one component/endpoint to another - could be done easily on a level of, once again, text file(s). Not Java, not Go, not some other programming language requiring (too) specific knowledge.
 
 
 ### Developers still want to write code
