@@ -19,7 +19,7 @@ All this leads to a fact that Bürokratt, by its nature, is and must be an R&D p
 
 To actually be able to focus on R&D, we have taken a very strict approach on not spending our resources on repetitive, one might even say dumb developments. For instance, you can't really revolutionise POST or GET queries but you can definitely turn them into a long-term maintanance nightmare on so many levels. The same goes for if/else statements, database queries, and so forth.
 
-To avoid such traps, we have decided to focus on a set of generic components taking care of the most common functionalities you might expect during software development. We call such components part of Bükstack.
+To avoid such traps, we have decided to focus on a set of generic components taking care of the most common functionalities you might expect during software development. And you must be able to use them without writing a single line of code in Java, Go or any other "actual" programming language. We call such components part of Bükstack.
 
 ### Boring text files instead of actual programming
 
