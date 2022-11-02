@@ -43,7 +43,7 @@ After getting pass that, developers say that it's just too boring to work on tex
 
 It goes both for creating new services and keeping them up-to-date, not to mention much faster [time to market](https://en.wikipedia.org/wiki/Time_to_market).
 
-We foresee at least tens of procurements for the next year alone. By using DSL-based developments, at least our own core team is always fully aware of what kind of (Bükstack) components should be used, why they should be used and how much resources does it take. It means that planning and tracking technical developments can done by the whole team, not just the architect.
+We foresee at least tens of procurements for the next year alone. By using DSL-based developments, at least our own core team is always fully aware of what kind of (Bükstack) components should be used, why they should be used and how much resources would it make sense to take. It means that planning and tracking technical developments can done by the whole team, not just the architect.
 
 Second, we can easily and very fast replace the core source code of all of our Bükstack or other DSL-based components while not changing the DSLs. Feel like replacing Java with Go in 2 weeks without telling anyone? Technically - no problem. Sounds like a far-fetched hypothetical situation? Not really if thousands of our clients could spend less on cloud fees just because of us deciding to switch to some other programming language.
 
