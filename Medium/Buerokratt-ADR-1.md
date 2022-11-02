@@ -45,8 +45,17 @@ It goes both for creating new services and keeping them up-to-date, not to menti
 
 We foresee at least tens of procurements for the next year alone. By using DSL-based developments, at least our own core team is always fully aware of what kind of (Bükstack) components should be used, why they should be used and how much resources would it make sense to take. It means that planning and tracking technical developments can done by the whole team, not just the architect.
 
-Second, we can easily and very fast replace the core source code of all of our Bükstack or other DSL-based components while not changing the DSLs. Feel like replacing Java with Go in 2 weeks without telling anyone? Technically - no problem. Sounds like a far-fetched hypothetical situation? Not really if thousands of our clients could spend less on cloud fees just because of us deciding to switch to some other programming language.
+Second, we can easily and very fast replace the core source code of all of our Bükstack or other DSL-based components while not changing the DSLs. This means that the actual services would still remain up and running even if the whole source code has been replaced.
+
+Feel like replacing Java with Go in 2 weeks without telling anyone? Technically - no problem. Sounds like a far-fetched hypothetical situation? Not really if thousands of our clients could spend less on cloud fees just because of us deciding to switch to some other programming language.
 
 Also, by having every single service described as a DSL, (automated) testing of new, alternative solutions becomes super easy and cheap. You can't miss it if something stopped working or produces different kind of output compared to the previous solution.
 
+Not to mention security - DSLs set very strict rules, which make it possible to use strict allow-list-based security and threat hunting rules. You can not do it by adding new custom code on a daily basis.
+
 And these are just some of the benefits from Bürokratt's perspective. And could also be yours, if you chose to start using Bükstack as well.
+
+
+## Next - open development
+
+In our next article, we cover the concept of open development that we have already fully adopted. Everything we do can be seen from https://github.com/buerokratt - no private repos, hidden task management, etc.
