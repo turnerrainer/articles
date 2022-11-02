@@ -1,4 +1,4 @@
-# Business reasons behind Bürokratt using DSL-based developments
+# Reasons behind Bürokratt giving less freedom to developers
 
 _Bürokratt is an initiative to, in the end, provide all of the Estonian government e-services (about 3,000 of them), plus potentially any of the private sector ones, via both text-based and voice input._
 
