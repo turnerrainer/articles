@@ -34,7 +34,7 @@ We have also adopted [**Handlebars**](https://handlebarsjs.com/) as a third-part
 
 But they can't. On most cases.
 
-When onboarding new partners, we often hear that such approach is highly uncommon and would take too much time for developers to adopt instead of just writing a new solution. The latter is exactly what we are trying to fight against.
+When onboarding new partners, we often hear that such approach is highly uncommon and would take too much time for developers to adopt instead of just writing a new solution. The latter is exactly what we are fighting against.
 
 After getting pass that, developers say that it's just too boring to work on text files instead of actually writing new code. We see this one as a happy problem.
 
