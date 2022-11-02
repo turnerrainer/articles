@@ -51,7 +51,7 @@ Feel like replacing Java with Go in 2 weeks without telling anyone? Technically 
 
 Also, by having every single service described as a DSL, (automated) testing of new, alternative solutions becomes super easy and cheap. You can't miss it if something stopped working or produces different kind of output compared to the previous solution.
 
-Not to mention security - DSLs set very strict rules, which make it possible to use strict allow-list-based security and threat hunting rules. You can not do it by adding new custom code on a daily basis.
+Not to mention security - DSLs are very strict, which make it possible to use fully allow-list-based security and threat hunting rules. You can not do it by adding new custom code on a daily basis.
 
 And these are just some of the benefits from Bürokratt's perspective. And could also be yours, if you chose to start using Bükstack as well.
 
