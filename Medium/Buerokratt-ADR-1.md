@@ -15,11 +15,13 @@ We at Bürokratt have no idea if we'll have 100 or 10,000 clients a year from to
 
 All this leads to a fact that Bürokratt, by its nature, is and must be an R&D project.
 
-## Setting restrictions with declarative DSLs
+## Less freedom to developers
 
 To actually be able to focus on R&D, we have taken a very strict approach on not spending our resources on repetitive, one might even say dumb developments. For instance, you can't really revolutionise POST or GET queries but you can definitely turn them into a long-term maintanance nightmare on so many levels. The same goes for if/else statements, database queries, and so forth.
 
 To avoid such traps, we have decided to focus on a set of generic components taking care of the most common functionalities you might expect during software development. We call such components part of Bükstack.
+
+### Boring text files instead of actual programming
 
 For instance, we have 0 relational database queries written in Java or similar - every single database query of ours sits in a separate text file of its own and can be used as a standard REST call. This one is served by a Bükstack component called Resql.
 
