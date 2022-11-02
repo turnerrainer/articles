@@ -23,16 +23,25 @@ To avoid such traps, we have decided to focus on a set of generic components tak
 
 ### Boring text files instead of actual programming
 
-For instance, we have 0 relational database queries written in Java or similar - every single database query of ours sits in a separate text file of its own and can be used as a standard REST call. This one is served by a Bükstack component called Resql.
+For instance, we have 0 relational database queries written in Java or similar - every single database query of ours sits in a separate text file of its own and can be used as a standard REST call. This one is served by a Bükstack component called [**Resql**](https://github.com/buerokratt/Resql).
 
-We also have 0 lines of Bürokratt-specific code in our Java (or any other) applications. Every single condition(al switch), business logic, replacable endpoint, etc is defined in YAML files. We create all of our actual, natural language-based e-services, the same way a CI/CD engineer would use Docker or Kubernetes. This is provided by Ruuter, our most central Bükstack component.
+We also have 0 lines of Bürokratt-specific code in our Java (or any other) applications. Every single condition(al switch), business logic, replacable endpoint, etc is defined in YAML files. We create all of our actual, natural language-based e-services, the same way a CI/CD engineer would use Docker or Kubernetes. This is provided by [**Ruuter**](https://github.com/buerokratt/Ruuter), our most central Bükstack component.
 
-We have also adopted Handlebars as a third-party component to make sure that changing data protocols - for instance, when replacing one component/endpoint with another - could be done easily on a level of, once again, text file(s). Not Java, not Go, not some other actual programming language requiring (too) specific knowledge.
+We have also adopted [**Handlebars**](https://handlebarsjs.com/) as a third-party component to make sure that changing data protocols - for instance, when replacing one component/endpoint to another - could be done easily on a level of, once again, text file(s). Not Java, not Go, not some other actual programming language requiring (too) specific knowledge.
 
 
-Such approach has caused a lot of, let's call it attention, by a number of companies providing custom programming as a living. Even to an extent to not take part of Bürokratt's procurements for as long as using Bükstack components is a must. Which is, of course, their right.
+### Developers still want to write code
 
-In short, there have been 2 arguments against Bükstack. The first one is that studying Bürokratt DSL (domain-specific language to describe all of our text file-based configurations) takes too much effort. And the second one is that only creating Bürokratt DSLs is too boring for serious programmers.
+But they can't. On most cases.
+
+When onboarding new partners, we often hear that such approach is highly uncommon and would take too much time for developers to adopt instead of just writing a new solution. The latter is exactly what we are trying to fight against.
+
+After getting pass that, developers say that it's just too boring to work on text files instead of actually writing new code. We see this one as a happy problem.
+
+
+### DSLs significantly lower the costs of development
+
+It goes both for creating new services and keeping them up-to-date, not to mention [time to market](https://en.wikipedia.org/wiki/Time_to_market).
 
 For us, being based on these DSLs, is highly important. First, whenever we start with a new procurement (and we literally have tens of them every year), at least our own team already exactly knows what to use, why to use and how much resources should it take.
 
