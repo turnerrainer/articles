@@ -53,8 +53,6 @@ Also, by having every single service described as a DSL, (automated) testing of 
 
 Not to mention security - DSLs are very strict, which make it possible to use fully allow-list-based security and threat hunting rules. You can not do it by adding new custom code on a daily basis.
 
-And these are just some of the benefits from Bürokratt's perspective. And could also be yours, if you chose to start using Bükstack as well.
-
 
 ## Next - open development
 
