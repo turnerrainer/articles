@@ -6,7 +6,7 @@ _To achieve this, we have made some (technical) decisions, which don't always fo
 
 
 
-## Problem to solve
+## Problems to solve
 
 When it comes to any software development, the most often fails are running out of money and taking way too much time  before getting an impactful result. Because, you know, computers, complexity, etc.
 
