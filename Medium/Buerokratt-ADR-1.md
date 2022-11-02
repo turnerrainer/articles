@@ -13,7 +13,7 @@ When it comes to any software development, the most often fails are running out 
 
 We at Bürokratt have no idea if we'll have 100 or 10,000 clients a year from today, but we do know that we have to provide them both a smooth on- and offboarding whenever they feel like it, also allowing every single one of them to hand-pick just the right services for them. All of our clients have to be able to join the network to provide each other's services, take part of swarm learning, update their technical stack on a daily basis, etc. And not to mention natural language processing! All this in a highly hostile environment security-wise as Bürokratt is an ML-based automated gateway to (at least) government databases and e-services.
 
-All this leads to a fact that Bürokratt, by its nature, is and must be an R&D project.
+Taking all this into account, Bürokratt, by its nature, must be an R&D project.
 
 ## Less freedom to developers
 
