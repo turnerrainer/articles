@@ -17,22 +17,21 @@ Taking all this into account, Bürokratt, by its nature, must be an R&D project.
 
 ## Less freedom to developers
 
-To actually be able to focus on R&D, we have taken a very strict approach on not spending our resources on repetitive, numb developments. For instance, you can't really revolutionise POST or GET queries but you can definitely turn them into a long-term maintenance nightmare on so many levels. The same goes for if/else statements, database queries, and so forth.
+To actually be able to focus on R&D, we have taken a very strict approach on not spending our resources on repetitive, numb developments. For instance, you can't really revolutionise simple database queries but you can definitely turn them into a long-term maintenance nightmare on so many levels.
 
-To avoid such traps, we have decided to focus on a set of generic components taking care of the most common functionalities you might expect during software development. And you must be able to use them without writing a single line of code in Java, Go or any other "actual" programming language. We call such components part of Bükstack.
+To avoid such traps, we have decided to focus on a set of generic components taking care of the most common functionalities you might expect during software development. We call such components part of Bükstack.
+
 
 ### Boring text files instead of actual programming
 
-For instance, we have 0 relational database queries written in Java or similar - every single database query of ours sits in a separate text file of its own and can be used as a standard REST call. This one is served by a Bükstack component called [**Resql**](https://github.com/buerokratt/Resql).
+In most cases, our developers never get their hands on actual source code in its traditional meaning. Instead, creating services for Bürokratt is just a boring text files manipulation. In general, such approach is called using DSL ([Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)).
 
-We also have 0 lines of Bürokratt-specific code in our Java (or any other) applications. Every single condition(al switch), business logic, replacable endpoint, etc is defined in YAML files. We create all of our actual, natural language-based e-services, the same way a CI/CD engineer would use Docker or Kubernetes. This is provided by [**Ruuter**](https://github.com/buerokratt/Ruuter), our most central Bükstack component.
-
-We have also adopted [**Handlebars**](https://handlebarsjs.com/) as a third-party component to make sure that changing data protocols - for instance, when replacing one component/endpoint to another - could be done easily on a level of, once again, text file(s). Not Java, not Go, not some other programming language requiring (too) specific knowledge.
+For us, this results in having a total control and visibility over what and how is done. For instance, every single database query we have, sits in its own separate text file. Open this text file-related URL in your browser and you see the actual result. Use this same URL in your other, even hidden services - works exactly the same way. Simple as that. And what's most important - costs just pennies compared to the traditional way of getting the same result.
 
 
 ### Developers still want to write code
 
-But they can't. On most cases.
+But they can't. Usually.
 
 When onboarding new partners, we often hear that such approach is highly uncommon and would take too much time for developers to adopt instead of just writing a new solution. The latter is exactly what we are fighting against.
 
@@ -43,9 +42,9 @@ After getting pass that, developers say that it's just too boring to work on tex
 
 It goes both for creating new services and keeping them up-to-date, not to mention much faster [time to market](https://en.wikipedia.org/wiki/Time_to_market).
 
-We foresee at least tens of procurements for the next year alone. By using DSL-based developments, at least our own core team is always fully aware of what kind of (Bükstack) components should be used, why they should be used and how much resources would it make sense to take. It means that planning and tracking technical developments can done by the whole team, not just the architect.
+We foresee at least tens of procurements for the next year alone. By using DSL-based developments, at least our own core team is always fully aware of what kind of components should be used, why they should be used and how much resources would it make sense to take. It means that planning and tracking technical developments can be done by the whole team, not just the architect.
 
-Second, we can easily and very fast replace the core source code of all of our Bükstack or other DSL-based components while not changing the DSLs. This means that the actual services would still remain up and running even if the whole source code has been replaced.
+Second, we can easily and very fast replace the core source code of all of our DSL-based components while not changing the DSLs themselves. This means that there's no need to re-create e-services existed so far even if the whole source code has been fully replaced.
 
 Feel like replacing Java with Go in 2 weeks without telling anyone? Technically - no problem. Sounds like a far-fetched hypothetical situation? Not really if thousands of our clients could spend less on cloud fees just because of us deciding to switch to some other programming language.
 
@@ -54,6 +53,11 @@ Also, by having every single service described as a DSL, (automated) testing of 
 Not to mention security - DSLs are very strict, which make it possible to use fully allow-list-based security and threat hunting rules. You can not do it by adding new custom code on a daily basis.
 
 
+## Call for action
+
+If any of this makes you curious, be it on a business or technical level, contact us via buerokratt@ria.ee or any of the team members directly and let's have a chat.
+
+
 ## Next - open development
 
-In our next article, we cover the concept of open development that we have already fully adopted. Everything we do can be seen from https://github.com/buerokratt - no private repos, hidden task management, etc.
+In our next article, we cover the concept of open development that we have already fully adopted. As a sneak peek - everything we do can be seen at https://github.com/buerokratt - no private repos, hidden task management, etc.
