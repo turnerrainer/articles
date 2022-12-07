@@ -46,4 +46,4 @@ If any of this makes you curious, be it on a business or technical level, contac
 
 ## Next - separating business decisions from technical ones
 
-In our next article, we cover the practice of separating business decisions from technical ones. Many say it's the only way to go, others see it as a bad trip. We have adopted it and have a clear understanding of what we think of it.
+In our next article, we cover the practice of completely separating business decisions from technical ones. Many say it's the only way to go, others see it as a bad trip. We have adopted it and have a clear understanding of what we think of it.
