@@ -4,17 +4,36 @@
 
 First things first.
 
-In general, **open-source software development** means that the source code produced is publicly accessible for anyone to study, use, change, etc. Open source does not mean being being free of charge. You can read more about it from [Wikipedia](https://en.wikipedia.org/wiki/Open-source_software_development).
+You can read about open-source software development from [Wikipedia](https://en.wikipedia.org/wiki/Open-source_software_development), but at the time of publishing this article, Wikipedia does not yet have a page to cover open development. So this is kind of an uncharted territory yet.
 
-**Open development** is something not yet so well described. For instance, at the time of publishing this article, Wikipedia does not yet have a page to cover open development.
+For us, open development means being completely public regarding to pretty much everything. True, we don't publish our contracts with partners, etc, but you can find everything else from https://github.com/buerokratt.
 
-For us, open development, compared to plain simple open-source development, is a major step forward regarding to transparency, better processes and higher quality. Open developments can, but do not have to be open-source developments, and vice versa.
+## Adopting open development
 
-## Bürokratt and open development
+Bürokratt fully adopted open development in May 2022 and hasn't looked back since. Ca 6+ months later, https://github.com/orgs/buerokratt/projects consists of 22 public Bürokratt projects, most of which are in status of initial thoughts, drafts, or work in process. The first ever of such projects can be found from https://github.com/orgs/buerokratt/projects/3.
 
-Bürokratt fully adopted open development in May 2022 and hasn't looked back since. Ca 6+ months later, https://github.com/orgs/buerokratt/projects consists of 22 public Bürokratt projects, many of which are in status of initial thoughts, drafts, or work in process.
+## We are still making our first steps
 
-For us, this is one of the key aspects of open development - **being public with your draft ideas is more than okay.** Sounds simple but is rarely practiced in real life. _**Why is this important?**_
+We are still experimenting, looking for the best practices and fine-graining our processes, but the big picture is there. Everything starts with public draft projects, adding initial thoughts to mark the key elements of user stories and acceptance criterias to be, moving on to fine-tuning them, and then, finally, getting it done by ourselves or with a help of our partners. Everything always in public with 0 internal project management tools, code repositories, etc.
+
+There's nothing special about the process, right? So why are you not doing it in public?
+
+## Discrete learning is not the key
+
+I once heard Priit Raspel, a legendary IT-guru in Estonia, saying that he asks his students not to practice discrete learning. Simple, right, but really the foundation of open development as well. If you're stuck on something, let everyone know of it so they could resolve it for you. Not to help you out as a person but by knowing that money is there to pick it up.
+
+When you scale it up to a level of large projects, the effect is imminent. And for the business owner, this is where the value lies in - less time-consuming onboarding because of discrete learning, which, in the end, the business owner always pays for.
+
+## Lessons learned
+
+I guess the best way to describe the positive effects of open development is **collateral benefits.** We don't have a strict guideline to follow, except the demand to do everything publicly. Some key aspects will definitely be described at some point, but we are not there yet.
+
+The 
+
+Less meetings
+
+
+
 
 ## First feedback and lessons learned
 
