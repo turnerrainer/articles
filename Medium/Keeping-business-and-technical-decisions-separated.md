@@ -1,4 +1,4 @@
-# Why Bürokratt keeps business goals and technical developments separated
+# Why Bürokratt keeps its business goals and technical developments separated
 
 > _This is an article of a series covering the business decisions of Bürokratt's not so common development practices_
 
