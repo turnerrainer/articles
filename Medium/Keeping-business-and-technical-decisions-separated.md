@@ -36,6 +36,6 @@ If any of this makes you curious, be it on a business or technical level, contac
 
 In our next article, we cover the logic of how we choose our technical stack and which criterias have to be met to replace them.
 
-> Rainer Türner
-> Bürokratt architect
+> Rainer Türner<br>
+> Bürokratt architect<br>
 > Information System Authority of Estonia
