@@ -24,22 +24,26 @@ _When it comes to endpoints being described in the format of [OpenAPI](https://w
 
 ### Bürokratt's core functionalities
 
-If you are developing the core functionalities of Bürokratt, you have to use Bükstack ([read more](https://github.com/buerokratt/Buerokratt-onboarding)). That's because this is the stack we are familiar with, have continuous pentesting on, etc. We also take the responsibilty to fix errors, add functionality, etc within Bürokratt's services.
+If you are developing the core functionalities of Bürokratt, you have to use Bükstack ([read more](https://github.com/buerokratt/Buerokratt-onboarding)). That's because this is the stack we are familiar with, have continuous pentesting on, etc. We also take the responsibilty to fix errors, add functionalities, etc within Bürokratt's services.
 
-PS! The latter means that Bürokratt does not take any responsibility for any projects using Bükstack components outside of Bürokratt.
+> PS! The latter means that Bürokratt does not take any responsibility for any projects using Bükstack components outside of Bürokratt.
 
 ### Your (custom) components replacing Bürokratt's stack
 
 If some of your clients are using Bürokratt and you decide to replace [Ruuter](https://github.com/buerokratt/Ruuter) with something else, there are 0 _technical_ restrictions for it. Just follow the protocol and you're good. But you have the responsibility to provide fixes, maintenance, pentesting, deployment, etc. Bürokratt's core team will have nothing to do with it.
 
-Also, your clients might not be eligible to be part of Bürokratt's Network if your stack fails to provide credible affirmation about being resilient to attacks.
+Also, your clients might not be eligible to be part of Bürokratt's Network if your stack fails to provide credible affirmation about being resilient to attacks, cover all the functionality, and so forth.
 
 ## Bükstack being a blocker
 
 We develop nothing just in case. If we don't have a use case for a functionality, we don't have it. This means that over time, our partners encounter situations where Bükstack is missing some crucial functionality.
 
-Let's say we are creating a new service with Ruuter but Ruuter's current functionality is not sufficient. In such cases, our partner creating a planned service creates Ruuter DSL but replaces blocking functionality with [mock endpoints](https://github.com/buerokratt/Ruuter/blob/main/samples/steps/mock.md) mimicing the to-be response. The development of Ruuter's core functionality is out of scope for this partner and is done separately. So, in such cases, there are no Bükstack-related blockers for our partners - they get their money even if the full functionality is not yet working.
+Let's say it happens with Ruuter. In such cases, our partner creating a planned service creates Ruuter DSL but replaces blocking functionality with [mock endpoints](https://github.com/buerokratt/Ruuter/blob/main/samples/steps/mock.md), mimicking the to-be response.
+
+The development of necessary Ruuter's core functionality is out of scope for this partner and is done separately. So, in such cases, there are no Bükstack-related blockers for our partners - they get their money even if the full functionality is not really there yet. And if you are creating services on a Java-based Ruuter, you really don't need to know anything about Java.
 
 ## Security
 
-We have just recently started with continuous pentesting of Bükstack and are working on having public bug bounties to break our code.
+We have just recently started with continuous pentesting of Bükstack and are working on having public bug bounties to break our code. And as all of our services are (by default) based on Bükstack, the responsibility for security lies greatly on our, not developer's side. It's different only in case of developing the core components of Bükstack themselves.
+
+So if there are any security issues, 
