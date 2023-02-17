@@ -14,44 +14,32 @@ The scope of this article is to give a higher, business level overview mostly fo
 
 ## Specification-driven development
 
-This is the key. In short, technically, you can replace every single component we have with anything you like as long as you follow the protocol. If you want to adopt new components using different protocols, you can use [DataMapper](https://github.com/buerokratt/DataMapper) (based on [Handlebars](https://handlebarsjs.com)) as an intermediate layer to switch protocols.
+This is THE key. In short, technically, you can replace every single component we have with anything you like as long as you follow the protocol. If you want to adopt new components using different protocols, you can use [DataMapper](https://github.com/buerokratt/DataMapper) (based on [Handlebars](https://handlebarsjs.com)) as an intermediate layer to switch protocols.
 
-This means that if you have your own chatbot, you can make it communicate with Bürokratt without doing any developments other than on DSLs (text-based configuration files). At least from Bürokratt's perspective.
+This means that if you have your own chatbot, e-service, etc, you can make it communicate with Bürokratt without doing any developments other than on DSLs (text-based configuration files). At least from Bürokratt's perspective.
 
-_When it comes to endpoints being described in the format of [OpenAPI](https://www.openapis.org), we started running before we learned to walk. As all of our services (including every single database query) are described as DSLs (text files), we can automate creating OpenAPI specs for everything we have now and all the to-be services created as mocks in the future. We are yet to have these developments and don't plan to do it manually in the meanwhile._
+_When it comes to endpoints being described in the format of [OpenAPI](https://www.openapis.org), we started running before we learned to walk. As all of our services (including every single database query) are described as DSLs, we can automate creating OpenAPI specs for everything we have now and all the to-be services created as mocks in the future. We are yet to have these developments and don't plan to do it manually in the meanwhile._
 
+## Warranty
 
+### Bürokratt's core functionalities
 
+If you are developing the core functionalities of Bürokratt, you have to use Bükstack ([read more](https://github.com/buerokratt/Buerokratt-onboarding)). That's because this is the stack we are familiar with, have continuous pentesting on, etc. We also take the responsibilty to fix errors, add functionality, etc within Bürokratt's services.
 
-.................
+PS! The latter means that Bürokratt does not take any responsibility for any projects using Bükstack components outside of Bürokratt.
 
-## GitHub
+### Your (custom) components replacing Bürokratt's stack
 
-Bürokratt is public as much as possible. We use [public GitHub](https://github.com/buerokratt) for plannings, developments, etc.
+If some of your clients are using Bürokratt and you decide to replace [Ruuter](https://github.com/buerokratt/Ruuter) with something else, there are 0 _technical_ restrictions for it. Just follow the protocol and you're good. But you have the responsibility to provide fixes, maintenance, pentesting, deployment, etc. Bürokratt's core team will have nothing to do with it.
 
-We are also adopting GitHub [Actions](https://docs.github.com/en/actions), [Packages](https://github.com/features/packages), etc step-by-step.
+Also, your clients might not be eligible to be part of Bürokratt's Network if your stack fails to provide credible affirmation about being resilient to attacks.
 
-So, GitHub is our preferred tool for developments, be it planning or actual development.
+## Bükstack being a blocker
 
+We develop nothing just in case. If we don't have a use case for a functionality, we don't have it. This means that over time, our partners encounter situations where Bükstack is missing some crucial functionality.
 
+Let's say we are creating a new service with Ruuter but Ruuter's current functionality is not sufficient. In such cases, our partner creating a planned service creates Ruuter DSL but replaces blocking functionality with [mock endpoints](https://github.com/buerokratt/Ruuter/blob/main/samples/steps/mock.md) mimicing the to-be response. The development of Ruuter's core functionality is out of scope for this partner and is done separately. So, in such cases, there are no Bükstack-related blockers for our partners - they get their money even if the full functionality is not yet working.
 
+## Security
 
-## Warrany period
-
-## Bürokratt's technical stack
-
-The logic behind choosing Bürokratt's technical stack is previously largely covered by [Reasons behind Bürokratt giving less freedom to developers](https://medium.com/digiriik/reasons-behind-b%C3%BCrokratt-giving-less-freedom-to-developers-fc04b0751).
-
-This article is to cover some of the mis- and lack of understandings of choosing and using Bürokratt's technical stack.
-
-## Keeping things simple
-
-The main goal of keeping our technical stack as minimal as possible is to keep things simple. And by "things" I mean development
-
-## Maintenance is the key
-
-## You can replace everything with your own
-
-## Pentesting
-
-## Core functionality
+We have just recently started with continuous pentesting of Bükstack and are working on having public bug bounties to break our code.
