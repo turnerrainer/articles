@@ -4,13 +4,13 @@
 
 When we talk about gov e-services, Estonia has been a pioneer in it for more than 20 years. This success is largely based on [X-road](https://x-road.global), allowing participants to securely exchange sensitive data. For example, Bürokratt, along others, can make requests about my recipes, drivers license, family relations, etc.
 
-Within ca 3000 different X-road requests, different participants use them AS IS or create new services based on them. Which is great, because there's no central decision-maker deciding which service is good enough to create and maintain.
+Within ca 3000 different X-road requests, different participants use them AS IS or create new services based on them. Which is great, because there's no central decision-maker deciding which services are good enough to create and maintain.
 
 ## Problem to solve
 
 But this has also led us to the problem of having a lot of gov web portals, often duplicating each other's services. Estonia takes implementing [once-only principle (OOP)](https://en.wikipedia.org/wiki/Once-only_principle) seriously, but expecting to replace data duplication in all of our systems in a short time frame, just doesn't add up.
 
-So, the goal is not only to provide one single point of entry to the end users, but also to reduce the cost for creating and maintaining duplicate e-services.
+So, the goal is not only to provide one single point of entry to the end users, but also to reduce the costs of creating and maintaining duplicate e-services.
 
 ## Bürokratt Network to the rescue
 
@@ -22,7 +22,7 @@ Business-wise, Bürokratt Network is a group of independent gov e-service provid
 
 ### What needs to be done
 
-Technically, Bürokratt Network will be **based on [DMR (Distributed Message Rooms)](https://github.com/buerokratt/DMR/blob/1-architecture-for-distributed-message-rooms/README.md).** In short - hassle-free opt-in/opt-out any time, all the participants validated as secure and trustworty by Bürokratt Core Team by applying central procedures and near real-time monitoring.
+Technically, Bürokratt Network will be **based on [DMR (Distributed Message Rooms)](https://github.com/buerokratt/DMR/blob/1-architecture-for-distributed-message-rooms/README.md).** In short - hassle-free opt-in/opt-out any time, all the participants validated as secure and trustworthy by Bürokratt Core Team by applying central procedures and near real-time monitoring.
 
 But it doesn't take just technical developments to achieve that. On the contrary, most of the working hours will from customer support agents and trainers, **teaching machine learning-based models** understand how Estonians talk when they want to use some of our gov e-services.
 
