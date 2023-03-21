@@ -31,6 +31,6 @@ But it doesn't take just technical developments to achieve that. On the contrary
 
 In my opinion, the most important aspect of Bürokratt is the fact that there will be no central gov e-services provided by Bürokratt itself. Only the functionalities that are required to set up, run, maintain and improve necessary software, clients, etc. All of the actual services will be created and maintain by our clients.
 
-## Next - Bürokratt Service Module to create and provide gov e-services via Bürokratt
+## Next - Bürokratt Service Module to create gov e-services on the flye
 
 In our next article, we cover Bürokratt's Service Module, which is the key component to create X-road- and API-based gov e-services by using a simple GUI and to make them accessible via Bürokratt.
