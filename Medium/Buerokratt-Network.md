@@ -24,7 +24,7 @@ Business-wise, Bürokratt Network is a group of independent gov e-service provid
 
 Technically, Bürokratt Network will be **based on [DMR (Distributed Message Rooms)](https://github.com/buerokratt/DMR/blob/1-architecture-for-distributed-message-rooms/README.md).** In short - hassle-free opt-in/opt-out any time, all the participants validated as secure and trustworthy by Bürokratt Core by applying central procedures and near real-time monitoring.
 
-But it doesn't take just technical developments to achieve that. On the contrary, most of the working hours will from customer support agents and trainers, **teaching machine learning-based models** understand how Estonians talk when they want to use some of our gov e-services.
+But it doesn't take just technical developments to achieve that. On the contrary, most of the working hours will come from customer support agents and trainers, **teaching machine learning-based models** understand how Estonians talk when they want to use some of our gov e-services.
 
 ### Bürokratt doesn't build its own e-services
 
