@@ -1,5 +1,4 @@
-# Why we are building Bürokratt Network
-# Bürokratt Network to reduce creating duplicate gov e-services
+# Bürokratt Network to apply once-only principle on gov e-services
 
 ## Where we are now
 
