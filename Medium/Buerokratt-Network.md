@@ -2,7 +2,7 @@
 
 ## Where we are now
 
-When we talk about gov e-services, Estonia has been a pioneer in it for more than 20 years. This success is largely based on [X-road](https://x-road.global), allowing participants to securely exchange sensitive data. For example, Bürokratt, along with others, can make requests about my recipes, driver's licenses, family relations, etc.
+When we talk about gov e-services, Estonia has been a pioneer in it for more than 20 years. This success is largely based on [X-road](https://x-road.global), allowing participants to securely exchange sensitive data. For example, Bürokratt, along with others, can make requests about my recipes, driver's licenses, family relations, mandates, etc.
 
 Within ca 3000 different X-road requests, different participants use them AS IS or create new services based on them. Which is great, because there's no central decision-maker deciding which services are good enough to create and maintain.
 
